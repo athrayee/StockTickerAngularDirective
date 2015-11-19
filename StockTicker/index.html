@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html ng-app="stockticker">
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+
+	<link href="Content/stockquote.css" rel="stylesheet" />
+	
+</head>
+<body>
+	
+	<stock-ticker></stock-ticker>
+
+	<!-- 3rd Party Libraries -->
+	<script src="Scripts/jquery-2.1.4.min.js"></script>
+	<script src="Scripts/angular.min.js"></script>
+	<script src="Scripts/angular-sanitize.min.js"></script>
+	<script src="Scripts/angular-resource.min.js"></script>
+
+	<!-- App -->
+
+	<script src="app/app.js"></script>
+
+
+	<!-- Directive -->
+
+	<script src="app/Directives/StockTickerDirective.js"></script>
+
+	<!-- Services -->
+
+	<script src="app/services/dataAccessService.js"></script>
+	<script src="app/Services/StockTicker/TickerInfo.js"></script>
+
+	<!-- Helpers -->
+
+	<script src="app/Stockticker/StockTickerInfo.js"></script>
+
+	<!-- Controllers -->
+	<script src="app/Stockticker/StockTickerController.js"></script>
+
+</body>
+</html>

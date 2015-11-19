@@ -1,0 +1,8 @@
+﻿<div class="stockInfo">
+
+    <div class="companyTitle">
+         {{vm.quoteresult.Symbol}} 
+        <span ng-class="vm.stockQuoteClass(vm.quoteresult.Change_PercentChange)" ng-cloak> {{vm.quoteresult.Change_PercentChange.split(" - ")[0]}}</span>
+
+    </div>
+</div>
